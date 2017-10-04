@@ -9,6 +9,6 @@
 import Foundation
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___Entity {
+class ___FILEBASENAMEASIDENTIFIER___ {
 
 }

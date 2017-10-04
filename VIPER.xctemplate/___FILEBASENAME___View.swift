@@ -9,11 +9,11 @@
 import Foundation
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___View: UIViewController, ___FILEBASENAMEASIDENTIFIER___UI {
-  let presenter: ___FILEBASENAMEASIDENTIFIER___Presenter
-  let user: ___FILEBASENAMEASIDENTIFIER___User
+class ___FILEBASENAMEASIDENTIFIER___: UIViewController, ___VARIABLE_moduleName___UI {
+  let presenter: ___VARIABLE_moduleName___Presenter
+  let user:___VARIABLE_moduleName___User
 
-  init(_ presenter: ___FILEBASENAMEASIDENTIFIER___Presenter) {
+  init(_ presenter: ___VARIABLE_moduleName___Presenter) {
     self.presenter = presenter
     self.user = presenter
     super.init(nibName: nil, bundle: nil)
@@ -23,6 +23,6 @@ class ___FILEBASENAMEASIDENTIFIER___View: UIViewController, ___FILEBASENAMEASIDE
     fatalError("init(coder:) has not been implemented")
   }
 
-  // MARK: ___FILEBASENAMEASIDENTIFIER___UI
+  // MARK: ___VARIABLE_moduleName___UI
 
 }

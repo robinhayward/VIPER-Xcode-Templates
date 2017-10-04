@@ -9,12 +9,12 @@
 import Foundation
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput {
-  weak var output: ___FILEBASENAMEASIDENTIFIER___InteractorOutput?
+class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_moduleName___InteractorInput {
+  weak var output: ___VARIABLE_moduleName___InteractorOutput?
 
-  let entity: ___FILEBASENAMEASIDENTIFIER___Entity
+  let entity: ___VARIABLE_moduleName___Entity
 
-  init(_ entity: ___FILEBASENAMEASIDENTIFIER___Entity) {
+  init(_ entity: ___VARIABLE_moduleName___Entity) {
     self.entity = entity
   }
 }

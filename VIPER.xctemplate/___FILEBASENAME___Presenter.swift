@@ -9,16 +9,16 @@
 import Foundation
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___User, ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
-  let wireframe: ___FILEBASENAMEASIDENTIFIER___Wireframe
-  var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput?
-  weak var ui: ___FILEBASENAMEASIDENTIFIER___UI?
+class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_moduleName___User, ___VARIABLE_moduleName___InteractorOutput {
+  let wireframe: ___VARIABLE_moduleName___Wireframe
+  var interactor: ___VARIABLE_moduleName___InteractorInput?
+  weak var ui: ___VARIABLE_moduleName___UI?
 
-  init(_ wireframe: ___FILEBASENAMEASIDENTIFIER___Wireframe) {
+  init(_ wireframe: ___VARIABLE_moduleName___Wireframe) {
     self.wireframe = wireframe
   }
 
-  // MARK: ___FILEBASENAMEASIDENTIFIER___UserActor
+  // MARK: ___VARIABLE_moduleName___UserActor
 
-  // MARK: ___FILEBASENAMEASIDENTIFIER___InteractorOutput
+  // MARK: ___VARIABLE_moduleName___InteractorOutput
 }

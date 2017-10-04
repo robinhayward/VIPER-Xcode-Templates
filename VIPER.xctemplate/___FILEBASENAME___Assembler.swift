@@ -9,12 +9,12 @@
 import Foundation
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___Assembler {
-  class func assemble(with wireframe: ___FILEBASENAMEASIDENTIFIER___Wireframe) -> UIViewController {
-    let entity = ___FILEBASENAMEASIDENTIFIER___Entity()
-    let interactor = ___FILEBASENAMEASIDENTIFIER___Interactor(entity)
-    let presenter = ___FILEBASENAMEASIDENTIFIER___Presenter(wireframe)
-    let view = ___FILEBASENAMEASIDENTIFIER___View(presenter)
+class ___FILEBASENAMEASIDENTIFIER___ {
+  class func assemble(with wireframe: ___VARIABLE_moduleName___Wireframe) -> UIViewController {
+    let entity = ___VARIABLE_moduleName___Entity()
+    let interactor = ___VARIABLE_moduleName___Interactor(entity)
+    let presenter = ___VARIABLE_moduleName___Presenter(wireframe)
+    let view = ___VARIABLE_moduleName___View(presenter)
 
     interactor.output = presenter
 
@@ -24,7 +24,7 @@ class ___FILEBASENAMEASIDENTIFIER___Assembler {
     return view
   }
 
-  class func assembleWithinNavigationController(with wireframe: ___FILEBASENAMEASIDENTIFIER___Wireframe) -> UINavigationController {
+  class func assembleWithinNavigationController(with wireframe: ___VARIABLE_moduleName___Wireframe) -> UINavigationController {
     let view = assemble(with: wireframe)
 
     return UINavigationController(rootViewController: view)

@@ -9,22 +9,22 @@
 import Foundation
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___Wireframe: class {
+protocol ___VARIABLE_moduleName___Wireframe: class {
 
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___User: class {
+protocol ___VARIABLE_moduleName___User: class {
 
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___UI: class {
+protocol ___VARIABLE_moduleName___UI: class {
 
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___InteractorInput: class {
+protocol ___VARIABLE_moduleName___InteractorInput: class {
 
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___InteractorOutput: class {
+protocol ___VARIABLE_moduleName___InteractorOutput: class {
 
 }
