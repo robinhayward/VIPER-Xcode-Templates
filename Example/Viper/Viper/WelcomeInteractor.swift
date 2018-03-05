@@ -17,7 +17,7 @@ class WelcomeInteractor: WelcomeInteractorInput {
   init(_ entity: WelcomeEntity) {
     self.entity = entity
   }
-  
+
   func userArrived() {
     output?.userFullNameLoaded(name: entity.fullNameOfCurrentUser)
   }

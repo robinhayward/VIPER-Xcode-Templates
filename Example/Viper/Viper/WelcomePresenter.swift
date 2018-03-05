@@ -23,12 +23,12 @@ class WelcomePresenter: WelcomeUser, WelcomeInteractorOutput {
   func arrived() {
     interactor?.userArrived()
   }
-  
+
   func readyToContinue() {
     wireframe.welcomeComplete()
   }
   // MARK: WelcomeInteractorOutput
-  
+
   func userFullNameLoaded(name: String) {
     ui?.welcome(message: "Hello \(name)")
   }

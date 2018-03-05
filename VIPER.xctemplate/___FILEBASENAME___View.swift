@@ -10,18 +10,16 @@ import Foundation
 import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___: UIViewController, ___VARIABLE_moduleName___UI {
-  let presenter: ___VARIABLE_moduleName___Presenter
-  let user:___VARIABLE_moduleName___User
+    let user: ___VARIABLE_moduleName___User
 
-  init(_ presenter: ___VARIABLE_moduleName___Presenter) {
-    self.presenter = presenter
-    self.user = presenter
-    super.init(nibName: nil, bundle: nil)
-  }
+    init(_ user: ___VARIABLE_moduleName___User) {
+        self.user = user
+        super.init(nibName: nil, bundle: nil)
+    }
 
-  required init?(coder aDecoder: NSCoder) {
-    fatalError("init(coder:) has not been implemented")
-  }
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 
   // MARK: ___VARIABLE_moduleName___UI
 

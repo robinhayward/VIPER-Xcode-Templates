@@ -8,5 +8,5 @@ Example project included to see what the templates create and how they can be us
 Copy the `VIPER.xctemplate` folder to the Xcode templates folder:
 
 ```shell
-cp -R VIPER.xctemplate ~/Library/Developer/Xcode/Templates/File\ Templates/
+mkdir -p ~/Library/Developer/Xcode/Templates/File\ Templates/VIPER/ | cp -R VIPER.xctemplate ~/Library/Developer/Xcode/Templates/File\ Templates/VIPER/
 ```

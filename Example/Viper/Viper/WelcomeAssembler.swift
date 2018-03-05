@@ -23,10 +23,10 @@ class WelcomeAssembler {
 
       return view
   }
-  
+
   class func assembleWithinNavigationController(with wireframe: WelcomeWireframe) -> UINavigationController {
     let view = assemble(with: wireframe)
-    
+
     return UINavigationController(rootViewController: view)
   }
 }

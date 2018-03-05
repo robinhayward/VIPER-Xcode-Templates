@@ -10,15 +10,15 @@ import Foundation
 import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_moduleName___User, ___VARIABLE_moduleName___InteractorOutput {
-  let wireframe: ___VARIABLE_moduleName___Wireframe
-  var interactor: ___VARIABLE_moduleName___InteractorInput?
-  weak var ui: ___VARIABLE_moduleName___UI?
+    let wireframe: ___VARIABLE_moduleName___Wireframe
+    var interactor: ___VARIABLE_moduleName___InteractorInput?
+    weak var ui: ___VARIABLE_moduleName___UI?
 
-  init(_ wireframe: ___VARIABLE_moduleName___Wireframe) {
-    self.wireframe = wireframe
-  }
+    init(_ wireframe: ___VARIABLE_moduleName___Wireframe) {
+        self.wireframe = wireframe
+    }
 
-  // MARK: ___VARIABLE_moduleName___UserActor
+    // MARK: ___VARIABLE_moduleName___UserActor
 
-  // MARK: ___VARIABLE_moduleName___InteractorOutput
+    // MARK: ___VARIABLE_moduleName___InteractorOutput
 }

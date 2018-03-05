@@ -12,13 +12,13 @@ import UIKit
 class WelcomeView: UIViewController, WelcomeUI {
   let presenter: WelcomePresenter
   let user: WelcomeUser
-  
+
   @IBOutlet weak var welcomeLabel: UILabel?
   @IBOutlet weak var continueButton: UIButton?
   @IBAction func continueButtonAction() {
     user.readyToContinue()
   }
-  
+
   init(_ presenter: WelcomePresenter) {
     self.presenter = presenter
     self.user = presenter
@@ -28,14 +28,14 @@ class WelcomeView: UIViewController, WelcomeUI {
   required init?(coder aDecoder: NSCoder) {
     fatalError("init(coder:) has not been implemented")
   }
-  
+
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
     user.arrived()
   }
 
   // MARK: WelcomeUI
-  
+
   func welcome(message: String) {
     welcomeLabel?.text = message
   }
