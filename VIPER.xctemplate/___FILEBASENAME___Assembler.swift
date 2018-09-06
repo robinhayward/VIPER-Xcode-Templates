@@ -3,14 +3,14 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-// ___COPYRIGHT___
+//  ___COPYRIGHT___
 //
 
 import Foundation
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___ {
-    class func assemble(with wireframe: ___VARIABLE_moduleName___Wireframe) -> UIViewController {
+struct ___FILEBASENAMEASIDENTIFIER___ {
+    func assemble(wireframe: ___VARIABLE_moduleName___Wireframe) -> UIViewController {
         let entity = ___VARIABLE_moduleName___Entity()
         let interactor = ___VARIABLE_moduleName___Interactor(entity)
         let presenter = ___VARIABLE_moduleName___Presenter(wireframe)
@@ -22,11 +22,5 @@ class ___FILEBASENAMEASIDENTIFIER___ {
         presenter.ui = view
 
         return view
-    }
-
-    class func assembleWithinNavigationController(with wireframe: ___VARIABLE_moduleName___Wireframe) -> UINavigationController {
-        let view = assemble(with: wireframe)
-
-        return UINavigationController(rootViewController: view)
     }
 }

@@ -3,7 +3,7 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-// ___COPYRIGHT___
+//  ___COPYRIGHT___
 //
 
 import Foundation
@@ -17,10 +17,6 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController, ___VARIABLE_moduleName__
         super.init(nibName: nil, bundle: nil)
     }
 
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-
-  // MARK: ___VARIABLE_moduleName___UI
+    // MARK: ___VARIABLE_moduleName___UI
 
 }
